@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6187e95b-3b2d-472c-975e-f680e1885473" name="Changes" comment="04. Generic Part 3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iffat/generics_challenge/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iffat/generics_challenge/Mappable.java" afterDir="false" />
+    <list default="true" id="6187e95b-3b2d-472c-975e-f680e1885473" name="Changes" comment="05. Generic Class Challenge Part 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iffat/generics_challenge/Layer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iffat/generics_challenge/Park.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iffat/generics_challenge/River.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iffat/generics_challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iffat/generics_challenge/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,10 +54,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.iffat.generics_challenge" />
       <recent name="org.iffat.generics" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.org.iffat.generics_challenge.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.iffat.generics.Main" />
       <module name="java-generic" />
@@ -69,8 +72,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.iffat.generics_challenge.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.iffat.generics_challenge.Main" />
+      <module name="java-generic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iffat.generics_challenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.iffat.generics_challenge.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -84,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711264780579</updated>
       <workItem from="1711264781567" duration="3272000" />
-      <workItem from="1711286505817" duration="2474000" />
+      <workItem from="1711286505817" duration="4732000" />
     </task>
     <task id="LOCAL-00001" summary="01. Starter Project">
       <option name="closed" value="true" />
@@ -118,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711287754864</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="05. Generic Class Challenge Part 1">
+      <option name="closed" value="true" />
+      <created>1711290246903</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711290246903</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +154,7 @@
     <MESSAGE value="02. Generic Part 1" />
     <MESSAGE value="03. Generic Part 2" />
     <MESSAGE value="04. Generic Part 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="04. Generic Part 3" />
+    <MESSAGE value="05. Generic Class Challenge Part 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="05. Generic Class Challenge Part 1" />
   </component>
 </project>
