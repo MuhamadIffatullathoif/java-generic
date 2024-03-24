@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6187e95b-3b2d-472c-975e-f680e1885473" name="Changes" comment="05. Generic Class Challenge Part 1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iffat/generics_challenge/Layer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iffat/generics_challenge/Park.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/iffat/generics_challenge/River.java" afterDir="false" />
+    <list default="true" id="6187e95b-3b2d-472c-975e-f680e1885473" name="Changes" comment="06. Generic Class Challenge Part 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iffat/comparing/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/iffat/generics_challenge/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iffat/generics_challenge/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +55,52 @@
       <recent name="org.iffat.generics" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.iffat.generics_challenge.Main">
+  <component name="RunManager" selected="Application.org.iffat.comparing.Main (2)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.iffat.generics.Main" />
       <module name="java-generic" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.iffat.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.iffat.comparing.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.iffat.comparing.Main" />
+      <module name="java-generic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iffat.comparing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.iffat.comparing.Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.iffat.comparing.Main" />
+      <module name="java-generic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iffat.comparing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.iffat.comparing.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.iffat.comparing.Main" />
+      <module name="java-generic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.iffat.comparing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,6 +123,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.iffat.comparing.Main (2)" />
+        <item itemvalue="Application.org.iffat.comparing.Main (1)" />
+        <item itemvalue="Application.org.iffat.comparing.Main" />
         <item itemvalue="Application.org.iffat.generics_challenge.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -101,7 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1711264780579</updated>
       <workItem from="1711264781567" duration="3272000" />
-      <workItem from="1711286505817" duration="4732000" />
+      <workItem from="1711286505817" duration="6271000" />
     </task>
     <task id="LOCAL-00001" summary="01. Starter Project">
       <option name="closed" value="true" />
@@ -143,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711290246903</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="06. Generic Class Challenge Part 2">
+      <option name="closed" value="true" />
+      <created>1711292915937</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711292915937</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +202,7 @@
     <MESSAGE value="03. Generic Part 2" />
     <MESSAGE value="04. Generic Part 3" />
     <MESSAGE value="05. Generic Class Challenge Part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="05. Generic Class Challenge Part 1" />
+    <MESSAGE value="06. Generic Class Challenge Part 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="06. Generic Class Challenge Part 2" />
   </component>
 </project>
