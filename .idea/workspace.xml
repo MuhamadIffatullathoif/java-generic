@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6187e95b-3b2d-472c-975e-f680e1885473" name="Changes" comment="09. Generic class as Reference type">
+    <list default="true" id="6187e95b-3b2d-472c-975e-f680e1885473" name="Changes" comment="10. Generic methods, wildcards, and type erasure">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iffat/generics_extra/util/QueryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/iffat/generics_extra/util/QueryList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/iffat/generics_extra/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iffat/generics_extra/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/iffat/generics_extra/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/iffat/generics_extra/model/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +144,7 @@
       <updated>1711264780579</updated>
       <workItem from="1711264781567" duration="3272000" />
       <workItem from="1711286505817" duration="6359000" />
-      <workItem from="1711321762546" duration="6099000" />
+      <workItem from="1711321762546" duration="7548000" />
     </task>
     <task id="LOCAL-00001" summary="01. Starter Project">
       <option name="closed" value="true" />
@@ -215,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711327297720</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="10. Generic methods, wildcards, and type erasure">
+      <option name="closed" value="true" />
+      <created>1711328509161</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711328509161</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +242,7 @@
     <MESSAGE value="07. Revisiting Comparable" />
     <MESSAGE value="08. Comparable vs Comparator" />
     <MESSAGE value="09. Generic class as Reference type" />
-    <option name="LAST_COMMIT_MESSAGE" value="09. Generic class as Reference type" />
+    <MESSAGE value="10. Generic methods, wildcards, and type erasure" />
+    <option name="LAST_COMMIT_MESSAGE" value="10. Generic methods, wildcards, and type erasure" />
   </component>
 </project>

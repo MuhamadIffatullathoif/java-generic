@@ -2,9 +2,19 @@ package org.iffat.generics_extra;
 
 import org.iffat.generics_extra.model.LPAStudent;
 import org.iffat.generics_extra.model.Student;
+import org.iffat.generics_extra.util.QueryItem;
+import org.iffat.generics_extra.util.QueryList;
 
 import java.util.ArrayList;
 import java.util.List;
+
+record Employee(String name) implements QueryItem {
+
+    @Override
+    public boolean matchFieldValue(String fieldName, String value) {
+        return false;
+    }
+}
 
 public class Main {
     public static void main(String[] args) {
@@ -25,6 +35,15 @@ public class Main {
 
         testList(new ArrayList<String>(List.of("Able", "Barry", "Charlie")));
         testList(new ArrayList<Integer>(List.of(1, 2, 3)));
+
+        var queryList = new QueryList<>(lpaStudents);
+        var matches = queryList.getMatches("course", "Python");
+        printMoreList(matches);
+
+        var students2021 = QueryList.getMatches(students, "YearStarted", "2021");
+        printMoreList(students2021);
+
+        // QueryList<Employee> employeeQueryList = new QueryList<>();
     }
 
     public static void printMoreList(List<? extends Student> students) {
