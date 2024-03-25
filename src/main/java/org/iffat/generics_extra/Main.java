@@ -1,11 +1,13 @@
 package org.iffat.generics_extra;
 
 import org.iffat.generics_extra.model.LPAStudent;
+import org.iffat.generics_extra.model.LPAStudentComparator;
 import org.iffat.generics_extra.model.Student;
 import org.iffat.generics_extra.util.QueryItem;
 import org.iffat.generics_extra.util.QueryList;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
 record Employee(String name) implements QueryItem {
@@ -44,6 +46,25 @@ public class Main {
         printMoreList(students2021);
 
         // QueryList<Employee> employeeQueryList = new QueryList<>();
+
+        QueryList<LPAStudent> queryLists = new QueryList<>();
+        for (int i = 0; i<25; i++) {
+            queryLists.add(new LPAStudent());
+        }
+        System.out.println("Ordered");
+        queryLists.sort(Comparator.naturalOrder());
+        printList(queryLists);
+
+        System.out.println("Matches");
+        var matches2 = queryList
+                .getMatches("PercentComplete", "50")
+                .getMatches("course","Python");
+        matches2.sort(new LPAStudentComparator());
+        printList(matches2);
+
+        System.out.println("Ordered");
+        matches2.sort(null);
+        printList(matches2);
     }
 
     public static void printMoreList(List<? extends Student> students) {
@@ -51,6 +72,13 @@ public class Main {
             System.out.println(student.getYearStarted() + ": " + student);
         }
         System.out.println();
+    }
+
+    public static void printList(List<?> students) {
+
+        for (var student: students) {
+            System.out.println(student);
+        }
     }
 
     public static void testList(List<?> list) {
